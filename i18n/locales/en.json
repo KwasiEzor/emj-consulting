@@ -1,0 +1,138 @@
+{
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "bookAppointment": "Book Appointment",
+    "contact": "Contact",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "filter": "Filter",
+    "close": "Close"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "destinations": "Destinations",
+    "blog": "Blog",
+    "contact": "Contact",
+    "appointment": "Appointment"
+  },
+  "hero": {
+    "title": "Your Passport to the World",
+    "subtitle": "EMJ Consulting assists you with all your visa and immigration needs with expertise and professionalism",
+    "cta": {
+      "primary": "Get Started Now",
+      "secondary": "Book Appointment"
+    }
+  },
+  "stats": {
+    "visas": "Visas Obtained",
+    "destinations": "Destinations",
+    "satisfaction": "Satisfaction",
+    "experience": "Years of Experience",
+    "responseTime": "Response Time"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete solutions for all your travel and immigration needs",
+    "tourist": "Tourist Visa",
+    "student": "Student Visa",
+    "business": "Business Visa",
+    "family": "Family Reunion",
+    "assistance": "Administrative Assistance",
+    "hotel": "Hotel Booking",
+    "flight": "Flight Tickets",
+    "insurance": "Travel Insurance",
+    "consulting": "Personalized Consulting"
+  },
+  "destinations": {
+    "title": "Popular Destinations",
+    "subtitle": "Discover the countries where we can help you obtain your visa",
+    "viewDetails": "View Details"
+  },
+  "process": {
+    "title": "Our Process",
+    "subtitle": "Step-by-step guidance for your success",
+    "consultation": "Free Consultation",
+    "preparation": "Document Preparation",
+    "submission": "Application Submission",
+    "tracking": "File Tracking",
+    "approval": "Visa Approval"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "personalized": "Personalized Support",
+    "fast": "Quick Response within 24h",
+    "expert": "International Expertise",
+    "rate": "High Success Rate",
+    "transparent": "Transparent Service",
+    "support": "24/7 Support"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Thousands of satisfied clients worldwide"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to your questions"
+  },
+  "cta": {
+    "title": "Ready to Plan Your Next Journey?",
+    "subtitle": "Contact us today for a free consultation",
+    "button": "Get Started Now"
+  },
+  "footer": {
+    "description": "EMJ Consulting - Your trusted partner for all your visa and immigration needs",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to answer all your questions",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Business Hours"
+    }
+  },
+  "appointment": {
+    "title": "Book Appointment",
+    "subtitle": "Schedule a consultation with our experts",
+    "selectService": "Select a service",
+    "selectDate": "Choose a date",
+    "selectTime": "Choose a time",
+    "confirm": "Confirm Appointment",
+    "success": "Your appointment has been confirmed"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Tips and news about visas and immigration",
+    "readTime": "min read",
+    "categories": "Categories",
+    "allCategories": "All Categories",
+    "relatedPosts": "Related Posts",
+    "shareArticle": "Share this article"
+  }
+}

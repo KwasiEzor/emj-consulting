@@ -1,0 +1,138 @@
+{
+  "common": {
+    "learnMore": "En savoir plus",
+    "getStarted": "Commencer",
+    "bookAppointment": "Prendre rendez-vous",
+    "contact": "Contact",
+    "readMore": "Lire la suite",
+    "viewAll": "Voir tout",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "success": "Succès",
+    "submit": "Envoyer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "close": "Fermer"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "destinations": "Destinations",
+    "blog": "Blog",
+    "contact": "Contact",
+    "appointment": "Rendez-vous"
+  },
+  "hero": {
+    "title": "Votre Passeport vers le Monde",
+    "subtitle": "EMJ Consulting vous accompagne dans toutes vos démarches de visa et immigration avec expertise et professionnalisme",
+    "cta": {
+      "primary": "Commencer maintenant",
+      "secondary": "Prendre rendez-vous"
+    }
+  },
+  "stats": {
+    "visas": "Visas obtenus",
+    "destinations": "Destinations",
+    "satisfaction": "Satisfaction",
+    "experience": "Années d'expérience",
+    "responseTime": "Temps de réponse"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des solutions complètes pour tous vos besoins en matière de voyage et d'immigration",
+    "tourist": "Visa Touristique",
+    "student": "Visa Étudiant",
+    "business": "Visa Affaires",
+    "family": "Regroupement Familial",
+    "assistance": "Assistance Administrative",
+    "hotel": "Réservation Hôtel",
+    "flight": "Billets d'Avion",
+    "insurance": "Assurance Voyage",
+    "consulting": "Conseils Personnalisés"
+  },
+  "destinations": {
+    "title": "Destinations Populaires",
+    "subtitle": "Découvrez les pays où nous pouvons vous aider à obtenir votre visa",
+    "viewDetails": "Voir les détails"
+  },
+  "process": {
+    "title": "Notre Processus",
+    "subtitle": "Un accompagnement étape par étape pour votre réussite",
+    "consultation": "Consultation Gratuite",
+    "preparation": "Préparation des Documents",
+    "submission": "Soumission de la Demande",
+    "tracking": "Suivi du Dossier",
+    "approval": "Obtention du Visa"
+  },
+  "whyChooseUs": {
+    "title": "Pourquoi Nous Choisir",
+    "personalized": "Accompagnement Personnalisé",
+    "fast": "Réponse Rapide sous 24h",
+    "expert": "Expertise Internationale",
+    "rate": "Taux de Réussite Élevé",
+    "transparent": "Service Transparent",
+    "support": "Support 7j/7"
+  },
+  "testimonials": {
+    "title": "Ce que Disent Nos Clients",
+    "subtitle": "Des milliers de clients satisfaits à travers le monde"
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Trouvez des réponses à vos questions"
+  },
+  "cta": {
+    "title": "Prêt à Réaliser Votre Prochain Voyage ?",
+    "subtitle": "Contactez-nous dès aujourd'hui pour une consultation gratuite",
+    "button": "Commencer maintenant"
+  },
+  "footer": {
+    "description": "EMJ Consulting - Votre partenaire de confiance pour tous vos besoins en visa et immigration",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Suivez-nous",
+    "rights": "Tous droits réservés"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour répondre à toutes vos questions",
+    "form": {
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "country": "Pays",
+      "message": "Message",
+      "send": "Envoyer le message"
+    },
+    "info": {
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Email",
+      "hours": "Horaires d'ouverture"
+    }
+  },
+  "appointment": {
+    "title": "Prendre Rendez-vous",
+    "subtitle": "Planifiez une consultation avec nos experts",
+    "selectService": "Sélectionnez un service",
+    "selectDate": "Choisissez une date",
+    "selectTime": "Choisissez une heure",
+    "confirm": "Confirmer le rendez-vous",
+    "success": "Votre rendez-vous a été confirmé"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Conseils et actualités sur les visas et l'immigration",
+    "readTime": "min de lecture",
+    "categories": "Catégories",
+    "allCategories": "Toutes les catégories",
+    "relatedPosts": "Articles connexes",
+    "shareArticle": "Partager cet article"
+  }
+}
