@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EMJ Consulting - Visa & Immigration Services
 
-## Getting Started
+Premium website for visa and immigration consulting with glassmorphism design, multilingual support, and admin dashboard.
 
-First, run the development server:
+## ✨ Features
+
+- **9-Section Home**: Hero, destinations, services, process, why choose us, stats, FAQ, CTA
+- **Content Pages**: About, Services (9), Destinations (30+), Blog, Contact
+- **Booking System**: Calendar appointment with time slots
+- **Blog**: Articles with search, categories, sharing
+- **Admin Dashboard**: Authentication, messages, appointments management
+- **Multilingual**: French (default) + English
+- **Design**: Glassmorphism, animations, dark/light mode
+
+## 🛠 Tech Stack
+
+- Next.js 16.2.9 + TypeScript
+- Tailwind CSS v4
+- Supabase + Drizzle ORM
+- NextAuth.js v5
+- Framer Motion
+- React Hook Form + Zod
+
+## 🚀 Quick Start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
+pnpm db:push
+pnpm db:seed
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000/fr`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔐 Admin Login
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+URL: `/admin/login`
+Email: `admin@emj-consulting.com`
+Password: `admin123`
 
-## Learn More
+## 📊 Database
 
-To learn more about Next.js, take a look at the following resources:
+10 tables: users, clients, appointments, messages, services, destinations, blog_posts, blog_categories, faq, newsletter_subscribers
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deploy to Vercel:
+```bash
+vercel
+```
 
-## Deploy on Vercel
+Add environment variables in Vercel dashboard.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Private - EMJ Consulting
