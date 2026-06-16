@@ -1,6 +1,6 @@
 'use client';
 
-import { Facebook, Twitter, Linkedin, Link as LinkIcon } from 'lucide-react';
+import { Link as LinkIcon } from 'lucide-react';
 import { useState } from 'react';
 
 export function ShareButtons({ title, slug }: { title: string; slug: string }) {
@@ -36,8 +36,7 @@ export function ShareButtons({ title, slug }: { title: string; slug: string }) {
           rel="noopener noreferrer"
           className="flex items-center px-4 py-2 glass rounded-lg hover:bg-white/20 transition-colors"
         >
-          <Facebook size={18} className="mr-2" />
-          Facebook
+          📘 Facebook
         </a>
         <a
           href={shareLinks.twitter}
@@ -45,8 +44,7 @@ export function ShareButtons({ title, slug }: { title: string; slug: string }) {
           rel="noopener noreferrer"
           className="flex items-center px-4 py-2 glass rounded-lg hover:bg-white/20 transition-colors"
         >
-          <Twitter size={18} className="mr-2" />
-          Twitter
+          🐦 Twitter
         </a>
         <a
           href={shareLinks.linkedin}
@@ -54,8 +52,7 @@ export function ShareButtons({ title, slug }: { title: string; slug: string }) {
           rel="noopener noreferrer"
           className="flex items-center px-4 py-2 glass rounded-lg hover:bg-white/20 transition-colors"
         >
-          <Linkedin size={18} className="mr-2" />
-          LinkedIn
+          💼 LinkedIn
         </a>
         <button
           onClick={copyToClipboard}

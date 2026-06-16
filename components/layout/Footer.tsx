@@ -2,7 +2,7 @@
 
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
-import { Facebook, Instagram, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 import { SOCIAL_LINKS, CONTACT_INFO } from '@/lib/constants';
 
 export function Footer() {
@@ -23,14 +23,14 @@ export function Footer() {
             <p className="text-white/60 text-sm mb-4">
               {t('description')}
             </p>
-            <div className="flex space-x-3">
+            <div className="flex space-x-3 text-sm">
               <a
                 href={SOCIAL_LINKS.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 glass rounded-lg hover:bg-white/20 transition-colors"
               >
-                <Facebook size={18} />
+                FB
               </a>
               <a
                 href={SOCIAL_LINKS.instagram}
@@ -38,7 +38,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="p-2 glass rounded-lg hover:bg-white/20 transition-colors"
               >
-                <Instagram size={18} />
+                IG
               </a>
               <a
                 href={SOCIAL_LINKS.linkedin}
@@ -46,7 +46,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="p-2 glass rounded-lg hover:bg-white/20 transition-colors"
               >
-                <Linkedin size={18} />
+                IN
               </a>
             </div>
           </div>

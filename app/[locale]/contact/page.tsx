@@ -2,7 +2,7 @@ import { ScrollReveal } from '@/components/animations/ScrollReveal';
 import { ContactForm } from '@/components/forms/ContactForm';
 import { fadeInUp } from '@/lib/animations';
 import { CONTACT_INFO, SOCIAL_LINKS } from '@/lib/constants';
-import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 import { GlassmorphCard } from '@/components/shared/GlassmorphCard';
 
 export default function ContactPage() {
@@ -71,25 +71,25 @@ export default function ContactPage() {
                   href={SOCIAL_LINKS.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 glass rounded-lg hover:bg-white/20 transition-colors"
+                  className="p-3 glass rounded-lg hover:bg-white/20 transition-colors text-sm"
                 >
-                  <Facebook size={20} />
+                  Facebook
                 </a>
                 <a
                   href={SOCIAL_LINKS.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 glass rounded-lg hover:bg-white/20 transition-colors"
+                  className="p-3 glass rounded-lg hover:bg-white/20 transition-colors text-sm"
                 >
-                  <Instagram size={20} />
+                  Instagram
                 </a>
                 <a
                   href={SOCIAL_LINKS.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 glass rounded-lg hover:bg-white/20 transition-colors"
+                  className="p-3 glass rounded-lg hover:bg-white/20 transition-colors text-sm"
                 >
-                  <Linkedin size={20} />
+                  LinkedIn
                 </a>
               </div>
             </GlassmorphCard>
