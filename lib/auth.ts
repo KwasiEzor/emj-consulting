@@ -1,4 +1,4 @@
-import type { NextAuthConfig } from 'next-auth';
+import NextAuth, { type NextAuthConfig } from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
 import { db } from '@/db';
 import { users } from '@/db/schema';
@@ -70,3 +70,5 @@ export const authConfig: NextAuthConfig = {
   },
   secret: process.env.NEXTAUTH_SECRET,
 };
+
+export const { handlers, auth, signIn, signOut } = NextAuth(authConfig);
