@@ -29,7 +29,7 @@ export function DestinationsClient({ destinations }: { destinations: Destination
 
   // Get unique continents
   const continents = useMemo(() => {
-    const unique = Array.from(new Set(destinations.map(d => d.continent).filter(Boolean)));
+    const unique = Array.from(new Set(destinations.map(d => d.continent).filter(Boolean))) as string[];
     return ['all', ...unique];
   }, [destinations]);
 
