@@ -7,9 +7,10 @@ export const config = {
   matcher: [
     // Match all pathnames except for
     // - API routes
+    // - Admin routes
     // - _next (Next.js internals)
     // - _static (inside /public)
     // - files with extensions (e.g. favicon.ico)
-    '/((?!api|_next|_static|.*\\..*).*)',
+    '/((?!api|admin|_next|_static|.*\\..*).*)',
   ],
 };
